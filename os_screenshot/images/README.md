@@ -1,0 +1,1 @@
+This directory is used to store all the screenshots of the pdf. They are all named screenshotX.png, where X is the page number.
