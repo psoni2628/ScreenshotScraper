@@ -2,8 +2,8 @@
 OS_Screenshot is used as a way to create a pdf for undownloadable (read-only) pdf files.
 
 ## Setup
-Two external libraries are used for these scripts - pyautogui and fpdf.
-To install pyautogui, check the following link: https://pyautogui.readthedocs.io/en/latest/install.html
+Two external libraries are used for these scripts - pyautogui and fpdf. <br/>
+To install pyautogui, check the following link: https://pyautogui.readthedocs.io/en/latest/install.html <br/>
 To install fpdf, check the following link: https://pypi.org/project/fpdf/
 
 ## Usage
@@ -19,7 +19,7 @@ This script takes a screenshot of every page of the pdf. Before pressing Enter o
 This script gets every screenshot from the images folder and merge these .png files in the correct order to create a single pdf file. The dimensions for each page of the pdf can be set to any custom value and is hardcoded for this script.
 
 ### pdf_maker.py
-This script runs both of the scripts above right after the other. The same rules when running pdf_screenshot.py apply here as well.
+This script runs pdf_screenshot.py and then pdf_merge.py. The same rules when running pdf_screenshot.py apply here as well.
 
 
 
