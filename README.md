@@ -1,5 +1,5 @@
 # ScreenshotScraper
-ScreenshotScraper is used as a way to create a pdf for undownloadable (read-only) pdf files. There are two versions of ScreenshotScraper, the OS version, OS_Screenshot, and the web version, Web_Screenshot.
+ScreenshotScraper is used to take screenshots of web pages and to create PDFs from these screenshots. There are two versions of ScreenshotScraper, the OS version, OS_Screenshot, and the web version, Web_Screenshot.
 
 ## OS_Screenshot
 OS_Screenshot is the OS version of ScreenshotScraper, which uses OS automation to obtain the pdf. It uses pyautogui for the OS automation and fpdf for the pdf merging.  
